@@ -1,0 +1,97 @@
+// styles.scss
+
+.postulantes {
+    background-color: rgb(48, 48, 184); // Caja azul clara
+    padding: 20px; // Espacio interno
+    width: 700px;
+    border-radius: 2ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; // Espacio entre elementos
+
+
+    .postulante {
+        background-color: rgb(156, 156, 156); // Caja de color naranja
+        padding: 20px;
+        display: flex; // Para alinear verticalmente el contenido
+        border-radius: 2ch;
+        margin-block-end: 20px;
+        // width: 6;
+
+        .imgPostu {
+            padding: 10px; // Espacio interno
+            align-items: center; // Centra verticalmente el contenido
+
+            img {
+                height: 100px; // Altura de la imagen
+                border-radius: 10%;
+            }
+        }
+
+        .info1 {
+            width: 150px; // Ancho de 150px
+            height: 150px; // Altura de 300px
+            padding: 10px; // Espacio interno
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            h3 {
+                margin: 0; // Elimina el margen predeterminado
+            }
+        }
+
+        .info2g {
+            align-items: center;
+            display: flex;
+            flex-direction: column; // Centra horizontalmente los elementos
+
+            .info2 {
+                display: flex; // Para alinear horizontalmente
+                justify-content: space-between; // Espacio entre elementos
+
+                .promedio,
+                .VSA,
+                .TipoPost {
+                    flex: 1; // Para ocupar el espacio disponible
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column; // Alinea los elementos verticalmente
+
+                    h4 {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: row; // Alinea los botones verticalmente
+                justify-content: space-between;
+                align-items: center;
+                width: 200px;
+                padding: 10px;
+
+                button {
+                    width: calc(70% - 5px);
+                    /* 50% de ancho con 5px de espacio entre botones */
+                    height: 100px;
+                    margin: 0 5px;
+                    /* Espacio horizontal entre botones */
+                    border-radius: 10px;
+                    border: none;
+                    background-color: rgb(48, 48, 184);
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgb(0, 0, 255);
+                    }
+                }
+            }
+        }
+    }
+}
