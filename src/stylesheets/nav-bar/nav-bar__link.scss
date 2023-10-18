@@ -2,9 +2,14 @@
   display: inline-block;
   margin-right: 15px;
   padding: 8px;
-
+  background-color: rgb(34, 98, 216);
+  color: white;
+  text-decoration: none; /* Para quitar el subrayado del enlace */
+  border-radius: 15px; /* Valor inicial para el borde circular */
+  transition: all 1s ease;
   &--active {
-    background: #222;
+    background: rgb(9, 48, 105);
     color: white;
+  
   }
 }
