@@ -16,6 +16,9 @@ export const NavBar = () => {
       >
         Página Interna
       </NavLink>
+      <NavLink className='logout-button' to='/login'>
+        Cerrar Sesión
+      </NavLink>
     </nav>
   )
 }
