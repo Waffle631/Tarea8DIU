@@ -6,6 +6,7 @@ import LoginAuth from '../pages/login_auth'
 import HomePage from '../pages/home'
 import InternalPage from '../pages/internal'
 import { ProfilePage } from '../pages/profile'
+import Init_page from './initial_pages'
 
 
 const AppRouter = () => {
@@ -14,7 +15,7 @@ const AppRouter = () => {
       <Routes>
         <Route path='/login' element={<LoginPage />} /> 
         <Route path='/login_auth' element={<LoginAuth />} /> 
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<Init_page/>} />
         <Route path='/internal' element={<InternalPage />} />
         <Route path='/profile' element={<ProfilePage />} />
       </Routes>
