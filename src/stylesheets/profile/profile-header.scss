@@ -1,0 +1,91 @@
+.title-profile {
+    background-color: #666;  /* Grey background */
+    color: #fff;  /* White text */
+    padding: 5px 15px;  /* Some padding for space */
+    position: absolute;  /* To position it slightly outside the .page */
+    top: -15px;  /* Position it 15px above the top of .page */
+    left: 20px;  /* Some space from the left */
+    border-radius: 5px;  /* Rounded corners */
+    font-weight: bold;  /* Bold font */
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+.profile {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.stat {
+    flex: 1;
+    padding: 10px;
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); 
+}
+
+.stat label, .motivation label, .courses label, .current-courses label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.motivation, .courses, .current-courses {
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); 
+    margin-bottom: 20px;
+}
+
+.courses ul, .current-courses ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stat + .stat {
+    margin-left: 10px;
+}
