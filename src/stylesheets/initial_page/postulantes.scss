@@ -9,6 +9,15 @@
     flex-direction: column;
     justify-content: space-between; // Espacio entre elementos
 
+    position: absolute;
+    /* Cambia la posición a absoluta */
+    top: 37%;
+    /* Lo coloca en la mitad vertical de la pantalla */
+    right: 80px;
+    /* Lo coloca 20px a la derecha del borde derecho de la pantalla */
+    // transform: translateY(-50%);
+    /* Corrige la posición vertical para centrarla */
+
 
     .postulante {
         background-color: rgb(156, 156, 156); // Caja de color naranja
