@@ -10,7 +10,7 @@ export const Init_page = () => {
                 </div>
                 <div className='info1'>
                     <h3>Ana María de las Mercedes</h3>
-                    <h4>Postulante a ayudantia de Estructuras Discretas</h4>
+                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -19,7 +19,7 @@ export const Init_page = () => {
                             <h4>78</h4>
                         </div>
                         <div className='VSA'>
-                            <h4>Veces Siendo ayudante</h4>
+                            <h4>Veces siendo ayudante</h4>
                             <h4>2</h4>
                         </div>
                         <div className='TipoPost'>
@@ -28,7 +28,7 @@ export const Init_page = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button>Perfil academico</button>
+                        <button>Perfil académico</button>
                         <button>Seleccionar</button>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ export const Init_page = () => {
                 </div>
                 <div className='info1'>
                     <h3>Ana María de las Mercedes</h3>
-                    <h4>Postulante a ayudantia de Estructuras Discretas</h4>
+                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -48,7 +48,7 @@ export const Init_page = () => {
                             <h4>78</h4>
                         </div>
                         <div className='VSA'>
-                            <h4>Veces Siendo ayudante</h4>
+                            <h4>Veces siendo ayudante</h4>
                             <h4>2</h4>
                         </div>
                         <div className='TipoPost'>
@@ -57,7 +57,7 @@ export const Init_page = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button>Perfil academico</button>
+                        <button>Perfil académico</button>
                         <button>Seleccionar</button>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export const Init_page = () => {
                 </div>
                 <div className='info1'>
                     <h3>Ana María de las Mercedes</h3>
-                    <h4>Postulante a ayudantia de Estructuras Discretas</h4>
+                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -77,7 +77,7 @@ export const Init_page = () => {
                             <h4>78</h4>
                         </div>
                         <div className='VSA'>
-                            <h4>Veces Siendo ayudante</h4>
+                            <h4>Veces siendo ayudante</h4>
                             <h4>2</h4>
                         </div>
                         <div className='TipoPost'>
@@ -86,7 +86,7 @@ export const Init_page = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button>Perfil academico</button>
+                        <button>Perfil académico</button>
                         <button>Seleccionar</button>
                     </div>
                 </div>

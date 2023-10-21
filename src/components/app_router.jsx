@@ -14,7 +14,7 @@ const AppRouter = () => {
       <Routes>
         <Route path='/login' element={<LoginPage />} /> 
         <Route path='/login_auth' element={<LoginAuth />} /> 
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<HomePage/>} />
         <Route path='/internal' element={<InternalPage />} />
         <Route path='/profile' element={<ProfilePage />} />
       </Routes>
