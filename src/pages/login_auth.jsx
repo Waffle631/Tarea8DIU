@@ -7,9 +7,6 @@ import LogoUSM from '../assets/USMDI.png'
 
 export const LoginForm = () => {
 
-    
-
-
     return (
         <div className="login-content" >
             <div className="login-container">
