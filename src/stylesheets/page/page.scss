@@ -1,7 +1,5 @@
 .page {
   // background:;
-  padding: 20px;
-  margin: 20px;
   border-radius: 5px;
   .Bar{
     background-color: #f0f0f0;
@@ -14,5 +12,12 @@
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+    
   }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }

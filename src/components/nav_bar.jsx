@@ -8,13 +8,7 @@ export const NavBar = () => {
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/'
       >
-        Página de inicio
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/internal'
-      >
-        Página Interna
+        Inicio
       </NavLink>
       <NavLink className='logout-button' to='/login'>
         Cerrar Sesión

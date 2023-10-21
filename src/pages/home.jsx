@@ -7,14 +7,13 @@ import Menu_teacher from '../components/menu_teacher'
 export const HomePage = () => {
   return (
     <div className='page'>
-      <div className='Bar'>
-        <h1 className='page__title'>Frontend Sample App</h1>
-        <NavBar />
-      </div>
-      <div className='content'>
+      <NavBar />
+    <div className='content'>
+      <div className='flex-container'>
         <Menu_teacher />
         <Init_page />
       </div>
+    </div>
     </div>
   )
 }
