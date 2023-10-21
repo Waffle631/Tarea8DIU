@@ -6,8 +6,12 @@ import LogoUSM from '../assets/USMDI.png'
 
 
 export const LoginForm = () => {
+
+    
+
+
     return (
-        <div className="login-content">
+        <div className="login-content" >
             <div className="login-container">
                 <img src={LogoUSM} style={{ maxWidth: '100%' }} alt='logo usm' /><br />
                 <div className="input-group">
