@@ -2,8 +2,9 @@ import React from 'react';
 import AnaMaria from "../assets/anamaria.png"
 import { Link } from 'react-router-dom'; 
 import BotonSeleccionar from './boton_seleccionar';
+import a1 from "../assets/a1.png"
 
-export const Init_page = () => {
+export const INF152 = () => {
     return (
         <div className='postulantes'>
             <div className='title-postulantes'>Postulantes a: Estructuras Discretas</div>
@@ -40,21 +41,50 @@ export const Init_page = () => {
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a1} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Ana María de las Mercedes</h3>
+                    <h3>Adolfo Riquelme</h3>
                     <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
                         <div className='promedio'>
                             <h4>Promedio</h4>
-                            <h4>78</h4>
+                            <h4>80</h4>
                         </div>
                         <div className='VSA'>
                             <h4>Veces siendo ayudante</h4>
-                            <h4>2</h4>
+                            <h4>0</h4>
+                        </div>
+                        <div className='TipoPost'>
+                            <h4>Postulante a</h4>
+                            <h4>Cátedra</h4>
+                        </div>
+                    </div>
+                    <div className='buttons'>
+                        <button>Perfil académico</button>
+                        <button>Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+            <div className='postulante'>
+                <div className='imgPostu'>
+                    <img src={AnaMaria} alt='logo usm' />
+                </div>
+                <div className='info1'>
+                    <h3>Sofía Vergara</h3>
+                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
+                </div>
+                <div className='info2g'>
+                    <div className='info2'>
+                        <div className='promedio'>
+                            <h4>Promedio</h4>
+                            <h4>75</h4>
+                        </div>
+                        <div className='VSA'>
+                            <h4>Veces siendo ayudante</h4>
+                            <h4>1</h4>
                         </div>
                         <div className='TipoPost'>
                             <h4>Postulante a</h4>
@@ -72,18 +102,18 @@ export const Init_page = () => {
                     <img src={AnaMaria} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Ana María de las Mercedes</h3>
+                    <h3>Gabriel Carmona</h3>
                     <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
                         <div className='promedio'>
                             <h4>Promedio</h4>
-                            <h4>78</h4>
+                            <h4>85</h4>
                         </div>
                         <div className='VSA'>
                             <h4>Veces siendo ayudante</h4>
-                            <h4>2</h4>
+                            <h4>1</h4>
                         </div>
                         <div className='TipoPost'>
                             <h4>Postulante a</h4>
@@ -101,4 +131,4 @@ export const Init_page = () => {
 }
 
 
-export default Init_page
+export default INF152

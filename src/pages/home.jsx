@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavBar from '../components/nav_bar'
-import Init_page from '../components/initial_pages'
+import INF152 from '../components/INF152'
 import Menu_teacher from '../components/menu_teacher'
 
 export const HomePage = () => {
@@ -11,7 +11,7 @@ export const HomePage = () => {
     <div className='content'>
       <div className='flex-container'>
         <Menu_teacher />
-        <Init_page />
+        <INF152 />
       </div>
     </div>
     </div>
