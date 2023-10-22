@@ -7,6 +7,7 @@ import a6 from "../assets/a6.png"
 export const INF134 = () => {
     return (
         <div className='postulantes'>
+            <div className='title-postulantes'>Postulantes a: Estructuras de Datos</div>
             <div className='postulante'>
                 <div className='imgPostu'>
                     <img src={a2} alt='logo usm' />
@@ -124,4 +125,4 @@ export const INF134 = () => {
 }
 
 
-export default INF134
+export default INF134;
