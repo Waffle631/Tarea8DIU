@@ -3,7 +3,8 @@ import AnaMaria from "../assets/anamaria.png"
 import { Link } from 'react-router-dom'; 
 import BotonSeleccionar from './boton_seleccionar';
 import a1 from "../assets/a1.png"
-
+import a23 from "../assets/a23.png"
+import a3 from "../assets/a3.png"
 export const INF152 = () => {
     return (
         <div className='postulantes'>
@@ -32,7 +33,7 @@ export const INF152 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <Link to="/profile">
+                        <Link to="/profile-AnaMaria">
                         <button>Perfil académico</button>
                         </Link>
                         <BotonSeleccionar/>
@@ -63,14 +64,16 @@ export const INF152 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Adolfo">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a23} alt='logo usm' />
                 </div>
                 <div className='info1'>
                     <h3>Sofía Vergara</h3>
@@ -92,17 +95,19 @@ export const INF152 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Sofia">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a3} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Gabriel Carmona</h3>
+                    <h3>Jose Carmona</h3>
                     <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
@@ -121,8 +126,10 @@ export const INF152 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Jose">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
