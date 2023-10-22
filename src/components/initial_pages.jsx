@@ -1,9 +1,12 @@
 import React from 'react';
 import AnaMaria from "../assets/anamaria.png"
+import { Link } from 'react-router-dom'; 
+import BotonSeleccionar from './boton_seleccionar';
 
 export const Init_page = () => {
     return (
         <div className='postulantes'>
+            <div className='title-postulantes'>Postulantes a: Estructuras Discretas</div>
             <div className='postulante'>
                 <div className='imgPostu'>
                     <img src={AnaMaria} alt='logo usm' />
@@ -28,8 +31,10 @@ export const Init_page = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
