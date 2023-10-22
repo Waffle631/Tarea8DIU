@@ -1,32 +1,30 @@
-# frontend-sample-app
-Basic Frontend Development Environment to start an app with Webpack
+# SPA Profesores
+Integrantes:
+- Adolfo Espinosa
+- Gabriel Vergara
+- Sofía Riquelme
 
-This repo includes `Webpack` to start an environment to build frontend views using `React`.
-
-### Requirements
+### Requerimientos
 - Node >= 16.13.1
 - npm >= 8.1.2
 
-### Quick start
+### Para iniciar la página
 
-Install dependences
+Instalar dependencias
 
 ```
 npm install
 ```
 
-Launch environment
+Iniciar
 
 ```
 npm run dev
 ```
 
-Now you can open http://localhost:5050
+La página se abre en http://localhost:5050
 
-### Packages included
+### Paquetes incluídos
 - [Webpack](https://webpack.js.org/)
 - [React Router](https://reactrouter.com/en/main)
 - [Material UI](https://mui.com/material-ui/getting-started/usage/)
-
-### About stylesheets
-- Sample stylesheets were written using the [BEM](https://getbem.com/) structure

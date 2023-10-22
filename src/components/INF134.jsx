@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
+import BotonSeleccionar from './boton_seleccionar';
 import a2 from "../assets/a2.png"
 import a4 from "../assets/a4.png"
 import a5 from "../assets/a5.png"
@@ -31,8 +33,10 @@ export const INF134 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Marta">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
@@ -59,8 +63,10 @@ export const INF134 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Manuela">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
@@ -87,8 +93,10 @@ export const INF134 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Patricia">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
@@ -115,8 +123,10 @@ export const INF134 = () => {
                         </div>
                     </div>
                     <div className='buttons'>
+                        <Link to="/profile-Guillermo">
                         <button>Perfil académico</button>
-                        <button>Seleccionar</button>
+                        </Link>
+                        <BotonSeleccionar/>
                     </div>
                 </div>
             </div>
