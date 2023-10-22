@@ -4,22 +4,22 @@
   padding: 16px 20px;
   background-color: rgb(34, 98, 216);
   color: white;
-  text-decoration: none; /* Para quitar el subrayado del enlace */
-  border-radius: 15px; /* Valor inicial para el borde circular */
+  text-decoration: none; 
+  border-radius: 15px; 
   transition: all 1s ease;
   &--active {
-    background: rgb(9, 48, 105);
+    background: #7f00b2;
     color: white;
   
   }
   &:hover {
-    background-color: #ff8c00;
+    background-color: #4a0072;
   }
 }
 
 
 .logout-button {
-  background-color: orange;
+  background: linear-gradient(60deg,#26c6da,#00acc1);;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -28,8 +28,9 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-left: 220px;
+  transition: background 0.3s ease;
 
   &:hover {
-    background-color: #ff8c00;
+    background: #007a8e;
   }
 }
