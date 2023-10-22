@@ -7,6 +7,7 @@ import HomePage from '../pages/home'
 import InternalPage from '../pages/internal'
 import { ProfilePage } from '../pages/profile'
 import { anaMariaData, adolfoData, sofiaData, joseData } from './profile_data'
+import INF134P from '../pages/INF134P'
 
 
 const AppRouter = () => {
@@ -21,6 +22,7 @@ const AppRouter = () => {
         <Route path='/profile-Adolfo' element={<ProfilePage {...adolfoData} />} />
         <Route path='/profile-Sofia' element={<ProfilePage {...sofiaData} />} />
         <Route path='/profile-Jose' element={<ProfilePage {...joseData} />} />
+        <Route path='/INF134' element={<INF134P/>} />
       </Routes>
     </BrowserRouter>
   )

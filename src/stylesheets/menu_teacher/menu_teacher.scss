@@ -1,74 +1,75 @@
 // styles.scss
 
 .MT_g {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  position: relative;
+  /* Cambia la posición a absoluta */
+  top: -100px;
+  /* Lo coloca en la mitad vertical de la pantalla */
+  left: -5%;
+  background-color: transparent;
+
+  .MT_img {
     position: relative;
     /* Cambia la posición a absoluta */
-    top: -100px;
-    /* Lo coloca en la mitad vertical de la pantalla */
-    left: -5%;
-    background-color: transparent;
-  
-    .MT_img {
-      position: relative; /* Cambia la posición a absoluta */
-      top: 50px; /* Posición 20px por debajo de .MT_name */
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      img {
-        height: 150px;
-        border-radius: 10px;
-      }
-    }
-  
-    .MT_name {
-      background-color: rgb(156, 156, 156);
-      width: 200px;
-      height: 80px;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    top: 50px;
+    /* Posición 20px por debajo de .MT_name */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 150px;
       border-radius: 10px;
+    }
+  }
+
+  .MT_name {
+    background-color: rgb(156, 156, 156);
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     //   position: relative; /* Cambia la posición a relativa */
-    }
-  
-    .MT_ramos {
-      margin-block-start: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      width: 200px;
-      padding: 10px;
-      background-color: rgb(156, 156, 156);
+  }
+
+  .MT_ramos {
+    margin-block-start: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+
+    button {
+      width: 150px;
+      height: 50px;
+      margin: 0 5px;
       border-radius: 10px;
-  
-      button {
-        width: calc(70% - 5px);
-        height: 50px;
-        margin: 0 5px;
-        border-radius: 10px;
-        border: none;
-        background-color: rgb(48, 48, 184);
-        margin-block-end: 10px;
-        color: white;
-        font-size: 12px;
-        font-weight: bold;
-        cursor: pointer;
-  
-        &:hover {
-          background-color: rgb(0, 0, 255);
-        }
+      border: none;
+      background-color: rgb(48, 48, 184);
+      margin-block-end: 10px;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(0, 0, 255);
       }
     }
   }
-  
+}

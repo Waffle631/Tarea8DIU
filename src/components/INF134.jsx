@@ -1,55 +1,28 @@
 import React from 'react';
-import AnaMaria from "../assets/anamaria.png"
+import a2 from "../assets/a2.png"
+import a4 from "../assets/a4.png"
+import a5 from "../assets/a5.png"
+import a6 from "../assets/a6.png"
 
 export const INF134 = () => {
     return (
         <div className='postulantes'>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a2} alt='logo usm' />
                 </div>
                 <div className='info1'>
                     <h3>Marta Fernández</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
                         <div className='promedio'>
                             <h4>Promedio</h4>
-                            <h4>78</h4>
+                            <h4>75</h4>
                         </div>
                         <div className='VSA'>
                             <h4>Veces siendo ayudante</h4>
                             <h4>2</h4>
-                        </div>
-                        <div className='TipoPost'>
-                            <h4>Postulante a</h4>
-                            <h4>Laboratorio</h4>
-                        </div>
-                    </div>
-                    <div className='buttons'>
-                        <button>Perfil académico</button>
-                        <button>Seleccionar</button>
-                    </div>
-                </div>
-            </div>
-            <div className='postulante'>
-                <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
-                </div>
-                <div className='info1'>
-                    <h3>Manuel Ruiz</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
-                </div>
-                <div className='info2g'>
-                    <div className='info2'>
-                        <div className='promedio'>
-                            <h4>Promedio</h4>
-                            <h4>80</h4>
-                        </div>
-                        <div className='VSA'>
-                            <h4>Veces siendo ayudante</h4>
-                            <h4>0</h4>
                         </div>
                         <div className='TipoPost'>
                             <h4>Postulante a</h4>
@@ -64,17 +37,16 @@ export const INF134 = () => {
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a4} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Patricia Herrera</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
+                    <h3>Manuela Ruiz</h3>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
                         <div className='promedio'>
                             <h4>Promedio</h4>
-                            <h4>75</h4>
+                            <h4>70</h4>
                         </div>
                         <div className='VSA'>
                             <h4>Veces siendo ayudante</h4>
@@ -82,7 +54,7 @@ export const INF134 = () => {
                         </div>
                         <div className='TipoPost'>
                             <h4>Postulante a</h4>
-                            <h4>Laboratorio</h4>
+                            <h4>Cátedra</h4>
                         </div>
                     </div>
                     <div className='buttons'>
@@ -93,17 +65,44 @@ export const INF134 = () => {
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a5} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Guillermo Vila</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
+                    <h3>Patricia Herrera</h3>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
                         <div className='promedio'>
                             <h4>Promedio</h4>
-                            <h4>85</h4>
+                            <h4>79</h4>
+                        </div>
+                        <div className='VSA'>
+                            <h4>Veces siendo ayudante</h4>
+                            <h4>2</h4>
+                        </div>
+                        <div className='TipoPost'>
+                            <h4>Postulante a</h4>
+                            <h4>Cátedra</h4>
+                        </div>
+                    </div>
+                    <div className='buttons'>
+                        <button>Perfil académico</button>
+                        <button>Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+            <div className='postulante'>
+                <div className='imgPostu'>
+                    <img src={a6} alt='logo usm' />
+                </div>
+                <div className='info1'>
+                    <h3>Guillermo Vila</h3>
+                </div>
+                <div className='info2g'>
+                    <div className='info2'>
+                        <div className='promedio'>
+                            <h4>Promedio</h4>
+                            <h4>82</h4>
                         </div>
                         <div className='VSA'>
                             <h4>Veces siendo ayudante</h4>
