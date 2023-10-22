@@ -1,6 +1,9 @@
 import React from 'react';
 import AnaMaria from "../assets/anamaria.png"
 import a1 from "../assets/a1.png"
+import a23 from "../assets/a23.png"
+import a3 from "../assets/a3.png"
+
 
 export const INF152 = () => {
     return (
@@ -11,7 +14,6 @@ export const INF152 = () => {
                 </div>
                 <div className='info1'>
                     <h3>Ana María de las Mercedes</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -40,7 +42,6 @@ export const INF152 = () => {
                 </div>
                 <div className='info1'>
                     <h3>Adolfo Riquelme</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -65,11 +66,10 @@ export const INF152 = () => {
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a23} alt='logo usm' />
                 </div>
                 <div className='info1'>
                     <h3>Sofía Vergara</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>
@@ -94,11 +94,10 @@ export const INF152 = () => {
             </div>
             <div className='postulante'>
                 <div className='imgPostu'>
-                    <img src={AnaMaria} alt='logo usm' />
+                    <img src={a3} alt='logo usm' />
                 </div>
                 <div className='info1'>
-                    <h3>Gabriel Carmona</h3>
-                    <h4>Postulante a ayudantía de Estructuras Discretas</h4>
+                    <h3>Jose Carmona</h3>
                 </div>
                 <div className='info2g'>
                     <div className='info2'>

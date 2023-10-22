@@ -6,6 +6,7 @@ import LoginAuth from '../pages/login_auth'
 import HomePage from '../pages/home'
 import InternalPage from '../pages/internal'
 import { ProfilePage } from '../pages/profile'
+import INF134P from '../pages/INF134P'
 
 
 const AppRouter = () => {
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path='/' element={<HomePage/>} />
         <Route path='/internal' element={<InternalPage />} />
         <Route path='/profile' element={<ProfilePage />} />
+        <Route path='/INF134' element={<INF134P/>} />
       </Routes>
     </BrowserRouter>
   )

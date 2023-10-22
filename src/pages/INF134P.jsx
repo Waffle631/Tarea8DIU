@@ -1,11 +1,11 @@
 import React from 'react'
 
 import NavBar from '../components/nav_bar'
-import INF152 from '../components/INF152'
+// import INF152 from '../components/INF152'
 import INF134 from '../components/INF134'
 import Menu_teacher from '../components/menu_teacher'
 
-export const HomePage = () => {
+export const INF134P = () => {
   return (
     <div className='page'>
       <div className='Bar'>
@@ -14,10 +14,10 @@ export const HomePage = () => {
       </div>
       <div className='content'>
         <Menu_teacher />
-        <INF152 />
+        <INF134 />
       </div>
     </div>
   )
 }
 
-export default HomePage
+export default INF134P
